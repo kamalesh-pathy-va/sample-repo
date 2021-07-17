@@ -1,0 +1,33 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	/*box-sizing: border-box;*/
+}
+
+body {
+	background-color: #7C83FD;
+}
+
+@media (min-width: 768px) {  /*greater than or equal to this width*/
+	body {
+		background-color: #FCD8D4;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-color: #ECD662;
+	}
+}
+
+@media (min-width: 1280px) {
+	body {
+		background-color: #A3A847;
+	}
+}
+
+/*@media (max-width: 768px) {  will apply this if it is less than or equal to this size
+	body {
+		background-color: #Fcd8d4;
+	}
+}*/

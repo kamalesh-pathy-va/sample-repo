@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav > nav {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+section {
+	height: 100vh;
+}
+
+.my-style {
+	background-color: #c9d8b6;
+	color: #578370;
+}
+
+#my-id {
+	background-color: #fdd2bf;
+	color: #df5e5e;
+}
+
+#day4 > p {
+	background-color: #cdf0ea;
+	color: #476072;
+}
+
+h1 {
+	color: black;
+}
+
+#day5 > .my-style {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 270px;
+	padding-bottom: 20px;
+	margin: 0% 5% 5% 5%;
+}
+
+.parent {
+	position: relative;
+	background-color: #362222;
+	width: 300px;
+	height: 300px;
+}
+
+.child {
+	position: absolute;
+	/*display: inline-block;*/
+	background-color: #fdd28f;
+	height: 100px;
+	width: 100px;
+	margin: 2px;
+	top: 0px;
+	right: 0px;
+}
